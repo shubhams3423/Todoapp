@@ -11,7 +11,7 @@
     
  }
  .container{
-    width: 500px;
+    width: 600px;
     
     border: 2px solid black;
     font-family: sans-serif;
@@ -21,7 +21,7 @@
     border-radius: 4px;
     margin-top: 12px;
     /* max-height: auto; */
-     min-height: 250px;
+     min-height: 400px;
 
 
     
@@ -31,11 +31,11 @@
  }
 #text{
   width: 100%;
-   height: 20px;
+   height: 25px;
   border-style: inset;
-  border-radius: 2px;
+  border-radius: 4px;
   outline: 0;
-
+   font-size: 18px;
  }
  .todo{
     list-style: none;
@@ -43,17 +43,19 @@
     
  }
  li{
-
+  display: flex;
+  align-items: center;
     border: 1px solid black;
     border-radius: 3px; 
     background-color: rgb(184, 178, 178);
      margin-bottom: 5px;
     text-align: justify;
-   padding: 2px 26px 2px 2px;
+  padding:2px 0px 2px 3px;
     position: relative;
     text-align: justify;
     /* height: auto; */
-    height: 16px;
+    height: 20px;
+    font-size: 16px;
     color: whitesmoke;
     
  }
